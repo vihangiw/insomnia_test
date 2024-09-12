@@ -1,0 +1,36 @@
+_id: req_9fefd49f77db41b6835a213bb8cec7a5
+type: Request
+parentId: fld_020e3944ba47413a9441fa2cf845d9a5
+modified: 1707984553036
+created: 1688466260218
+url: "{{ _.umbartha.api_uri }}/service/65c5b32dec28e108b2cbaaf8"
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "uuuuuuuuuuuu."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_da36a894ab01487b94f304e029c99a03
+  - name: Authorization
+    value: Bearer {% response 'body', 'req_6b075897f61c4731804e0af72c466502',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 28800 %}
+    id: pair_34d7147d7f59486c97fc28cfbcc36d60
+authentication: {}
+preRequestScript: null
+metaSortKey: 250
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

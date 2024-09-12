@@ -1,0 +1,34 @@
+_id: req_62ca98a42bb1469e8966e1b09be1c7c5
+type: Request
+parentId: fld_020e3944ba47413a9441fa2cf845d9a5
+modified: 1726160820693
+created: 1688466286451
+url: "{{ _.umbartha.api_uri }}/service"
+name: get all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.8
+    id: pair_486d7f2de1d844b9a8369ed360030312
+  - name: Content-Type
+    value: application/json
+    id: pair_45143aec5d4b4ff6bfcf5684f4b62013
+  - name: Authorization
+    value: Bearer {% response 'body', 'req_6b075897f61c4731804e0af72c466502',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 28800 %}
+    id: pair_9c44d1a2e77746c7a7abf2f0fc02d83f
+authentication: {}
+preRequestScript: null
+metaSortKey: 37.5
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

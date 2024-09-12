@@ -1,0 +1,14 @@
+_id: fld_020e3944ba47413a9441fa2cf845d9a5
+type: RequestGroup
+parentId: fld_9c883214f79e49079e7dafda5371a35e
+modified: 1707419909438
+created: 1688458453412
+name: Service
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1707285674543.5
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

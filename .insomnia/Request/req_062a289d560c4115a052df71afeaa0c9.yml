@@ -1,0 +1,31 @@
+_id: req_062a289d560c4115a052df71afeaa0c9
+type: Request
+parentId: fld_020e3944ba47413a9441fa2cf845d9a5
+modified: 1707984522362
+created: 1688121639881
+url: "{{ _.umbartha.api_uri }}/service/65c5b32dec28e108b2cbaaf8"
+name: get by Id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f5fc3d26bc4d463a96106577e2fc56ea
+  - name: Authorization
+    value: Bearer {% response 'body', 'req_6b075897f61c4731804e0af72c466502',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 28800 %}
+    id: pair_ec27cea4a29d46558ff251dfadf80232
+authentication: {}
+preRequestScript: null
+metaSortKey: 50
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
