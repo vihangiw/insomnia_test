@@ -1,0 +1,25 @@
+_id: env_7c481c4ee3e14fc483bb3bc409bed1d8
+type: Environment
+parentId: env_8dc5ba476eba451982b1db4ce4a21bea
+modified: 1706524815606
+created: 1702274784852
+name: .env.dev
+data:
+  client:
+    microchip:
+      api_uri: http://localhost:3000
+  umbartha:
+    api_uri: http://localhost:3000
+dataPropertyOrder:
+  "&":
+    - client
+    - umbartha
+  "&~|client":
+    - microchip
+  "&~|client~|microchip":
+    - api_uri
+  "&~|umbartha":
+    - api_uri
+color: "#09ce20"
+isPrivate: false
+metaSortKey: 1702274782040
