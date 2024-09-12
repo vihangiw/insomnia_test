@@ -1,0 +1,31 @@
+_id: req_3c60ece5bfaa416cab9694279e0950cd
+type: Request
+parentId: fld_020e3944ba47413a9441fa2cf845d9a5
+modified: 1707984579923
+created: 1688466241602
+url: "{{ _.umbartha.api_uri }}/service/65cdc6bac1e148217144591b"
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b4cd8588dc2c4b39a6db81a95e0018be
+  - name: Authorization
+    value: Bearer {% response 'body', 'req_6b075897f61c4731804e0af72c466502',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 28800 %}
+    id: pair_15a71074b495459aa925bc526a001cb2
+authentication: {}
+preRequestScript: null
+metaSortKey: 300
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

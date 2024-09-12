@@ -1,0 +1,25 @@
+_id: env_0b588ae92f3845dcb79dab9bc7ca8a67
+type: Environment
+parentId: env_8dc5ba476eba451982b1db4ce4a21bea
+modified: 1702876231319
+created: 1702274782041
+name: .env.qa
+data:
+  client:
+    microchip:
+      api_uri: https://api-qa.hscodes.lk:443
+  umbartha:
+    api_uri: https://api-qa.umbartha.org:443
+dataPropertyOrder:
+  "&":
+    - client
+    - umbartha
+  "&~|client":
+    - microchip
+  "&~|client~|microchip":
+    - api_uri
+  "&~|umbartha":
+    - api_uri
+color: "#218bfd"
+isPrivate: false
+metaSortKey: 1702274782041

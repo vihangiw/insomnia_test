@@ -1,0 +1,43 @@
+_id: req_b4925ed8dfc942ec82eee1c0cbd49fab
+type: Request
+parentId: fld_020e3944ba47413a9441fa2cf845d9a5
+modified: 1709184733538
+created: 1688466305291
+url: "{{ _.umbartha.api_uri }}/service"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "session 124",
+    	"title": "Transform with therapy, galleries showcasing healing images",
+    	"description": "Aliquet nec ullamcorper sit amet risus nullam. Purus in mollis nunc sed id semper risus in. Purus sit amet volutpat consequat mauris nunc congue nisi. Pharetra et ultrices neque ornare aenean euismod.",
+    	"subTitle": "Transform with therapy, galleries showcasing healing images",
+    	"subDescription": "Aliquet nec ullamcorper sit amet risus nullam. Purus in mollis nunc sed id semper risus in. Purus sit amet volutpat consequat mauris nunc congue nisi. Pharetra et ultrices neque ornare aenean euismod. Enim diam vulputate ut pharetra sit amet aliquam id diam. Ut eu sem integer vitae justo."
+    }
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.8
+    id: pair_32d411c0703e4ebc9e21831e40dbec9c
+  - name: Content-Type
+    value: application/json
+    id: pair_ee9ac414090a47af992094b3d934e1f8
+  - name: Authorization
+    value: Bearer {% response 'body', 'req_6b075897f61c4731804e0af72c466502',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 28800 %}
+    id: pair_0260d3019ea64fa49b1b39fdeca6da1b
+authentication: {}
+preRequestScript: null
+metaSortKey: 150
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

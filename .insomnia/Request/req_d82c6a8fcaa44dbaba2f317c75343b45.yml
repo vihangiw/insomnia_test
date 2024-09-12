@@ -1,0 +1,50 @@
+_id: req_d82c6a8fcaa44dbaba2f317c75343b45
+type: Request
+parentId: wrk_3fb47462334847569c127aef49ae356a
+modified: 1707975757251
+created: 1702278232231
+url: https://postman-echo.com/post
+name: Private Variables
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"clients": {
+    		"microchip": {
+    			"auth0": {
+    				"auth0_domain": "{{ _.pruvate.client.microchip.auth0.auth0_domain }}",
+    				"client_id": "{{ _.pruvate.client.microchip.auth0.client_id }}",
+    				"client_secret": "{{ _.pruvate.client.microchip.auth0.client_secret }}",
+    				"audience": "{{ _.pruvate.client.microchip.auth0.audience }}"
+    			}
+    		},
+    		"umbartha": {
+    			"auth0": {
+    				"auth0_domain": "{{ _.pruvate.umbartha.auth0.auth0_domain }}",
+    				"client_id": "{{ _.pruvate.umbartha.auth0.client_id }}",
+    				"client_secret": "{{ _.pruvate.umbartha.auth0.client_secret }}",
+    				"audience": "{{ _.pruvate.umbartha.auth0.audience }}"
+    			}
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.4.5
+authentication: {}
+preRequestScript: null
+metaSortKey: -1702278232231
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_a78d237a4388497da7a8265257f6156f
+type: Request
+parentId: fld_9c883214f79e49079e7dafda5371a35e
+modified: 1707332321824
+created: 1694599623637
+url: "{{ _.umbartha.api_uri }}/health"
+name: /health
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: null
+metaSortKey: -1707285674606
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
