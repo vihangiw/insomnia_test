@@ -1,0 +1,60 @@
+_id: req_767caeec77054dd7ae7f157073eac373
+type: Request
+parentId: fld_57b9f31730a749e8ae4817e5a52fcc5d
+modified: 1669017178860
+created: 1613477277859
+url: "{{ _.api_uri }}/{{ _.tenant }}/device"
+name: /device
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "100"
+    description: ""
+    id: pair_c5895415df5546cc95a9229ecd310ded
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_5369a4c01894406b8e8c63acca5ed0a2
+  - id: pair_b244b5a9da834375b16754ed5c972922
+    name: s
+    value: Development
+    description: ""
+    disabled: true
+  - id: pair_6d4f660639fb434ab5bfefd2743fe1a0
+    name: serialNo
+    value: cfbd509f-517d-4c2e-a066-3e0fbdb92629
+    description: ""
+    disabled: true
+  - id: pair_46fba5fc50b6447a80fd1a7514954086
+    name: name
+    value: Development
+    description: ""
+    disabled: true
+  - id: pair_dcce41ac9c46406aa622ff7dc61bfc2c
+    name: name
+    value: CYPRESS
+    description: ""
+    disabled: true
+headers:
+  - id: pair_72fa3fd5213643ce9c16fd1de5d600aa
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_2e9dc5825f6f47faac21aac1de5c563b
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939458
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,43 @@
+_id: req_752e8adf7e99417ea8e377b4e61ac65f
+type: Request
+parentId: wrk_40a33b86d65d4b3b9f51173026c2e494
+modified: 1669092916725
+created: 1632808835867
+url: "{{ _.token_url }}"
+name: token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |+
+    {
+        "grant_type": "client_credentials"
+    }
+
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a59e2de8b66845efb6f0ea4b978fbc67
+  - id: pair_4b0d446d281a4bd8924b914780a47fe5
+    name: Authorization
+    value: Basic
+      MXZ2UzBkQ3d2Qnp6b1g4aURGR1AwemlIODF3YTpHZlI2bE5oeWRmeUducUFZMGs3dVZVVVZFZjhh
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: 1vvS0dCwvBzzoX8iDFGP0ziH81wa
+  password: GfR6lNhydfyGnqAY0k7uVUUVEf8a
+preRequestScript: null
+metaSortKey: -1634880933810
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

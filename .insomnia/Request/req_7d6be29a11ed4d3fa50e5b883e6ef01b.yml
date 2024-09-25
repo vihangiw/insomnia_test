@@ -1,0 +1,43 @@
+_id: req_7d6be29a11ed4d3fa50e5b883e6ef01b
+type: Request
+parentId: fld_d6ba65bbfb8943f780888330bae49f71
+modified: 1704975252065
+created: 1704951275291
+url: "{{ _.api_uri }}/{{ _.tenant }}/tags/659fdb6d4cb6c554533cfcd6"
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"label":"6547"
+    }
+parameters:
+  - id: pair_4cfc12374db341239ee881abe81a720b
+    name: purge
+    value: "true"
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_ca3fc4607d1a4d52b0178408e1d819a4
+  - id: pair_c163ff7ac83446919f13146c028cb8f0
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1703669735851
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

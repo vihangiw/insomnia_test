@@ -1,0 +1,33 @@
+_id: req_701db80fa006446180c42379058077fd
+type: Request
+parentId: fld_9b0332bd7f874df1a3e718e44012a124
+modified: 1669089290942
+created: 1668929599361
+url: "{{ _.api_uri }}/{{ _.tenant
+  }}/v2/637c46be2035beb28be2de2c/gate/637c46df2035beb28be2de31"
+name: /v2/{siteId}/gate/{gateId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c1b43b2ba05f49c485aa2777bd10ea43
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_d845b9825d8c4277923fbe1dd785912e
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1668929599361
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

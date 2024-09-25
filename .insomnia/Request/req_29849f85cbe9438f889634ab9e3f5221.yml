@@ -1,0 +1,36 @@
+_id: req_29849f85cbe9438f889634ab9e3f5221
+type: Request
+parentId: fld_d6ba65bbfb8943f780888330bae49f71
+modified: 1704975300039
+created: 1704951363524
+url: "{{ _.api_uri }}/{{ _.tenant }}/tags/659fdba54cb6c554533cfce3"
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_4cfc12374db341239ee881abe81a720b
+    name: purge
+    value: "true"
+    description: ""
+    disabled: false
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_ca3fc4607d1a4d52b0178408e1d819a4
+  - id: pair_c163ff7ac83446919f13146c028cb8f0
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1703669659081.5
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

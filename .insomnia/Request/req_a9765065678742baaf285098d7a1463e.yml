@@ -1,0 +1,38 @@
+_id: req_a9765065678742baaf285098d7a1463e
+type: Request
+parentId: fld_284c66869e974a9fa0ee484bc4baac5b
+modified: 1670237477004
+created: 1632721067349
+url: http://localhost:3000/DtVd/pair/638dccc4d80fb3237bbe3171/group/638997acab9e1d88105b1f01
+name: /pair/{pairId}/group/{groupId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dc25012a64894a5a992ab4f51aaf5efb
+  - id: pair_a485b24bacd945af8e6db79d38fb2444
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_3d17a93862e1442ba0457ced8e7099a1
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612239051662.2012
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

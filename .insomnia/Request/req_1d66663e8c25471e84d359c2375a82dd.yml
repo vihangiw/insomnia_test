@@ -1,0 +1,39 @@
+_id: req_1d66663e8c25471e84d359c2375a82dd
+type: Request
+parentId: fld_8176487b5c14496db1ee2e9d2f1367f6
+modified: 1669017330399
+created: 1634880943433
+url: "{{ _.api_uri }}/{{ _.tenant }}/media/key"
+name: /media/key
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_167e9f6499b44bf0ab24d506a917631c
+    name: key
+    value: DtVd/6033a0122da79633f9599d99/reports/keyBatch1636349644455.xlsx
+    description: ""
+    disabled: false
+headers:
+  - id: pair_81fd34458463497c9e5c43411e932d83
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+  - id: pair_71960ceb17f4420b9beb28af653a72de
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1634880943433
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

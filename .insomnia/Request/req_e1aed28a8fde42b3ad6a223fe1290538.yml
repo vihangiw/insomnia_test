@@ -1,0 +1,32 @@
+_id: req_e1aed28a8fde42b3ad6a223fe1290538
+type: Request
+parentId: fld_57b9f31730a749e8ae4817e5a52fcc5d
+modified: 1670232133353
+created: 1669017133781
+url: "{{ _.api_uri }}/{{ _.tenant }}/device/638db80f35c7f518aa18bbba/sync"
+name: /device/{deviceId}/sync
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers:
+  - id: pair_9efbd0d8b1cf48e69bc3a64fa0c04054
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_d1021ac248f74f07a1fd2c102d7b31d7
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1669017133781
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

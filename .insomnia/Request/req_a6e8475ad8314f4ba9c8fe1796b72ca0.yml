@@ -1,0 +1,47 @@
+_id: req_a6e8475ad8314f4ba9c8fe1796b72ca0
+type: Request
+parentId: fld_65db54e1058a4df58c72df0f3b3d1e62
+modified: 1669015527705
+created: 1634193220670
+url: "{{ _.api_uri }}/{{ _.tenant }}/mgmt/gate/615d0f0c0470c76a3b0c231f/locks"
+name: /mgmt/gate/{gate}/locks
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "10"
+    description: ""
+    id: pair_ee453a99c58040458363f7a34f79c038
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_bef529d080c84800bdea86c0bc76031e
+    disabled: false
+  - id: pair_cd2b5d0701294017b88aae42403f9937
+    name: sort
+    value: availableFrom+
+    description: ""
+    disabled: true
+headers:
+  - id: pair_f3781de57b864007ab109b09bfd32948
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_eec63abce2ae4e0dbb401ab33c4028e4
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939439.25
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,64 @@
+_id: req_80dee7448c2342f0846865573753ea2f
+type: Request
+parentId: fld_9b0332bd7f874df1a3e718e44012a124
+modified: 1670236401713
+created: 1669015832879
+url: "{{ _.api_uri }}/{{ _.tenant
+  }}/6386cfbda98374211e0f7269/gate/638dbc2816a334eb54edb5f7"
+name: /{siteId}/gate/{gateId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"_id": "637c46df2035beb28be2de31",
+    	"name": "Test one gate",
+    	"description": "test",
+    	"organization": "6033a0122da79633f9599d99",
+    	"site": "637c46be2035beb28be2de2c",
+    	"createdBy": "sysUser",
+    	"status": true,
+    	"integration": false,
+    	"parentStatus": true,
+    	"updatedBy": "sysUser",
+    	"meta": [
+    		{
+    			"key": "string",
+    			"value": "string",
+    			"status": true,
+    			"_id": "637c46df2035beb28be2de32",
+    			"createdAt": "2022-11-22T03:49:51.374Z",
+    			"updatedAt": "2022-11-22T03:49:51.374Z"
+    		}
+    	],
+    	"schemaVersion": 1,
+    	"_version": 1,
+    	"createdAt": "2022-11-22T03:49:51.374Z",
+    	"updatedAt": "2022-11-22T03:49:51.374Z",
+    	"__v": 0
+    }
+parameters: []
+headers:
+  - id: pair_b3281ca6fae340059f0fa09c8cd50978
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - id: pair_638e3236c473450abf914e2857e16b8c
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+preRequestScript: null
+metaSortKey: -1669015832879
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

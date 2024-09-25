@@ -1,0 +1,32 @@
+_id: req_03087273586b4e9e887aecfa22791879
+type: Request
+parentId: fld_64d70fca5ba54c60acb96cee127faead
+modified: 1669017438018
+created: 1669017381993
+url: "{{ _.api_uri }}/{{ _.tenant }}/thing/6141aaaf7a34cf7ef270a293/certificate"
+name: /thing/{thingId}/certificate
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5609e5e3386c4e9da999ddc4c6e83eda
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_dbe28195c21442a7baa70b53e16cd91f
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1669017381993
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_a90d00c718024d0c8a0349d262106fa1
+type: Request
+parentId: fld_211cd963de4b4d59ba92b6563e0a2945
+modified: 1670238217252
+created: 1613381081238
+url: "{{ _.api_uri }}/{{ _.tenant }}/site/638dcf28d4c8f5e056758d6c"
+name: /site/{siteId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1b93c278aab7412a9c6161bbd7312d5b
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_af95d118f2ec4801ae8c1db4dcc5f671
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939408
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

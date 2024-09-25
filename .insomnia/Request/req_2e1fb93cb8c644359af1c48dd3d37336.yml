@@ -1,0 +1,51 @@
+_id: req_2e1fb93cb8c644359af1c48dd3d37336
+type: Request
+parentId: fld_211cd963de4b4d59ba92b6563e0a2945
+modified: 1669017225020
+created: 1613381081270
+url: "{{ _.api_uri }}/{{ _.tenant }}/site"
+name: /site
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "10"
+    description: ""
+    id: pair_ee453a99c58040458363f7a34f79c038
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_bef529d080c84800bdea86c0bc76031e
+    disabled: false
+  - id: pair_cd2b5d0701294017b88aae42403f9937
+    name: sort
+    value: availableFrom+
+    description: ""
+    disabled: true
+headers:
+  - id: pair_f3781de57b864007ab109b09bfd32948
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_eec63abce2ae4e0dbb401ab33c4028e4
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+  - id: pair_4f17f06bdce74f63876499d83733171f
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939458
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

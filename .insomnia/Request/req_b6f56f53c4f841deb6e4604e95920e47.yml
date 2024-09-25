@@ -1,0 +1,40 @@
+_id: req_b6f56f53c4f841deb6e4604e95920e47
+type: Request
+parentId: wrk_40a33b86d65d4b3b9f51173026c2e494
+modified: 1726634669316
+created: 1726634666103
+url: https://api-ref.irongatesolutions.com.au/core/1.0/DtVd/site/665feb8e9e16b60f6a080c74/events
+name: New GET EVAC
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "EVACUACTION_OFF"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eaa16ad7f6474feeb58ed15c77a0a610
+  - name: User-Agent
+    value: insomnia/10.0.0
+    id: pair_8ad5aab83eb44f95a8ddd34fcbe8adc4
+  - id: pair_c51b3b343ca64f8dabebdb725c29d173
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1726397710360.5
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

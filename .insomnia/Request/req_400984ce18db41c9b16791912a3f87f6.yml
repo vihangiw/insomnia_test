@@ -1,0 +1,32 @@
+_id: req_400984ce18db41c9b16791912a3f87f6
+type: Request
+parentId: fld_238e2a7f550c4161984a0dc28118b788
+modified: 1669045624851
+created: 1616666007643
+url: "{{ _.api_uri }}/{{ _.tenant }}/tracking/62d0a0c7e76987bebd5ce6a6/sibilings"
+name: /tracking/{deviceId}/sibilings
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7517446944d847ff84f005c5a8852da6
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_8640e08966b744e890d631828f96635f
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939508
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

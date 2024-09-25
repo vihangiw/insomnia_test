@@ -1,0 +1,40 @@
+_id: req_968e68ad47f24d92b5d2b080648544e9
+type: Request
+parentId: fld_f788644e310a4ff78cf3dbcd49484859
+modified: 1669016996115
+created: 1669016035003
+url: "{{ _.api_uri }}/{{ _.tenant }}/v2/organization"
+name: /v2/organization
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7510fa08bf174385b2d16d014b4b3f3e
+    name: limit
+    value: "2"
+    description: ""
+  - id: pair_eb32b8d8ed9e47ea8e3fc67d28df14ae
+    name: page
+    value: "1"
+    description: ""
+headers:
+  - id: pair_63250e545887475592d43c2c0a0f0cc2
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - id: pair_c7a74afb032e4d57a111828a7d3deac3
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1669016035003
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_d3cb394a7be64da9a7e255771a2d8b68
+type: Request
+parentId: fld_57b9f31730a749e8ae4817e5a52fcc5d
+modified: 1669014708387
+created: 1668768565272
+url: "{{ _.api_uri }}/{{ _.tenant }}/v2/device"
+name: /v2/device
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f46e9a60eead4100837a79c20e6f3e1b
+    name: limit
+    value: "2"
+    description: ""
+  - id: pair_df9270a8733c4b539a0d6fd4253e9bf7
+    name: page
+    value: "1"
+    description: ""
+headers:
+  - id: pair_d85333e4b41341449d4f83f3be1b06c4
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_047cf74565d74113830301f8d803fb1e
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1668768565272
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

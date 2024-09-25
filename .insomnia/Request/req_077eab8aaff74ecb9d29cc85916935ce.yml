@@ -1,0 +1,56 @@
+_id: req_077eab8aaff74ecb9d29cc85916935ce
+type: Request
+parentId: fld_d6ba65bbfb8943f780888330bae49f71
+modified: 1705058624198
+created: 1704951476696
+url: "{{ _.api_uri }}/{{ _.tenant }}/tags"
+name: get
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_4cfc12374db341239ee881abe81a720b
+    name: type
+    value: LOCATION
+    description: ""
+    disabled: false
+  - id: pair_2e7f7892ec384aaca8b9fe9c6b6cc589
+    name: parent
+    value: 65a120777960fb5094a47c65
+    description: ""
+    disabled: false
+  - id: pair_e065cbe221bd46bbb0380072be7f56d7
+    name: type
+    value: KEYWORD
+    description: ""
+    disabled: true
+  - id: pair_29530ad50ab94eb39fe42f321a320e05
+    name: page
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_70fb913448bd4090874e7509c752eaa3
+    name: size
+    value: "1000"
+    description: ""
+    disabled: true
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_ca3fc4607d1a4d52b0178408e1d819a4
+  - id: pair_c163ff7ac83446919f13146c028cb8f0
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1703669620696.75
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,51 @@
+_id: req_c153f480f39e44179bc6278b13f7b515
+type: Request
+parentId: fld_57b9f31730a749e8ae4817e5a52fcc5d
+modified: 1695716304657
+created: 1613477277851
+url: "{{ _.api_uri }}/{{ _.tenant }}/device"
+name: /device
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "NEW TEN DEVICE",
+      "serialNo": "5c688852-3332-429e-a0f2-d865f45d3f23",
+      "hid": "1232132",
+    	"type": "FACE_REC", 
+       "meta": [
+        {
+          "key": "string",
+          "value": "string",
+          "status": true
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4abfcde23f4247f499ddec623d34f72a
+  - id: pair_4297dd6827454a768fb3632bcc2f0479
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_bd8875d71c1d4f6a92c8d2128468c706
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939508
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_b43e61abd0384313bd88f5e9d5f6d57d
+type: Request
+parentId: fld_9b0332bd7f874df1a3e718e44012a124
+modified: 1670233740125
+created: 1613647812747
+url: "{{ _.api_uri }}/{{ _.tenant
+  }}/6386cfbda98374211e0f7269/gate/638dbc2816a334eb54edb5f7"
+name: /{siteId}/gate
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_9380eef9395949169f065a590a80c2d6
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_919422a8775441ed82edc691e5a85721
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939408
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

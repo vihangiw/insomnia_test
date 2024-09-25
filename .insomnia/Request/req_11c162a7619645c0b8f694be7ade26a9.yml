@@ -1,0 +1,51 @@
+_id: req_11c162a7619645c0b8f694be7ade26a9
+type: Request
+parentId: fld_284c66869e974a9fa0ee484bc4baac5b
+modified: 1670237436678
+created: 1616326716903
+url: "{{ _.api_uri }}/{{ _.tenant }}/pair"
+name: /pair
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "device": "638db9bbe4b16ee52c804c13",
+      "gate": "638dc8fd2131f4c2d9a51d2d",
+    	"inScannerMacAddress":"avcd",
+    	"outScannerMacAddress":"aassdd",
+      "meta": [
+        {
+          "key": "string",
+          "value": "string",
+          "status": true
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4abfcde23f4247f499ddec623d34f72a
+  - id: pair_8d8e44a91c2845f5a970ef2d6c3e7324
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_5c37b3139b944b9ba0042c33f5ef8b7a
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939508
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

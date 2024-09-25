@@ -1,0 +1,47 @@
+_id: req_bf9f2f8c05094a31a20e47019e38bc42
+type: Request
+parentId: fld_57b9f31730a749e8ae4817e5a52fcc5d
+modified: 1670484073344
+created: 1613477277840
+url: "{{ _.api_uri }}/{{ _.tenant }}/device/638db80f35c7f518aa18bbba"
+name: /device/{deviceId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Test Device 6", 
+      "meta": [
+        {
+          "key": "string",
+          "value": "string",
+          "status": true
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dc25012a64894a5a992ab4f51aaf5efb
+  - id: pair_f2d46e37a2e54e3a9c86554dbe7617c2
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_6c7f058f8f014aaaa59065a34caf30c9
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939358
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

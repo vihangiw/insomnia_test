@@ -1,0 +1,32 @@
+_id: req_2cf7780be100449b895f18bbfe9d5a6d
+type: Request
+parentId: fld_f788644e310a4ff78cf3dbcd49484859
+modified: 1669017100211
+created: 1669016962880
+url: "{{ _.api_uri }}/{{ _.tenant }}/organization/v2"
+name: /organization/v2
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_980c3d2375d44dae98b5837e3982c259
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - id: pair_7f3a235129bb48d0b900a9de56e38702
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1669016962880
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_cb0f9217590d4eeaabdab8809adb7f9e
+type: Request
+parentId: fld_f788644e310a4ff78cf3dbcd49484859
+modified: 1670236621706
+created: 1669017039898
+url: "{{ _.api_uri }}/{{ _.tenant }}/organization/638dc94b2131f4c2d9a51d3e/sync"
+name: /orgainzation/{orgId}/sync
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers:
+  - id: pair_df6955a71fe846b3b9e101f329575f23
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - id: pair_f9ec3d3834f74ad1a80fc2e8ee6152b9
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1669017039898
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

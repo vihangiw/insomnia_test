@@ -1,0 +1,53 @@
+_id: req_ddaf632ad78b41bc98e2c23c0c69d5de
+type: Request
+parentId: fld_211cd963de4b4d59ba92b6563e0a2945
+modified: 1704797516072
+created: 1613381081254
+url: "{{ _.api_uri }}/{{ _.tenant }}/site/649cfcdbc83e1e177a9a331b"
+name: /site/{siteId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "ffffrfrrr",
+      "description": "This is a Test Site",
+    	"location":"658bf9b8d13f3b6a7d7d508e",
+    	"irongateIntegration":true,
+    	"signinAppIntegration" : true,
+      "meta": [
+        {
+          "key": "string",
+          "value": "string",
+          "status": true
+        }
+      ],
+      "status": true
+    }
+parameters: []
+headers:
+  - id: pair_5bb3e969ae0d4e8e835b20cb463e819f
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_b4bdf20c5c564ea1903dcde2e69935a2
+  - id: pair_24300a6721314164a01658135eef9733
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939358
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

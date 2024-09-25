@@ -1,0 +1,47 @@
+_id: req_ce7b3a83470e46bab3a463a0bd75a3d8
+type: Request
+parentId: fld_284c66869e974a9fa0ee484bc4baac5b
+modified: 1705033176620
+created: 1616326716896
+url: "{{ _.base_url }}/{{ _.tenant }}/pair/657fea7bcb3674ba3ed4a57f/acl"
+name: /pair/{pairId}/acl
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ACL": [
+    		{
+    			"kind": "WHITELIST",
+    			"group": "657aa3507c8021d58bdf826c",
+    			"active": true
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dc25012a64894a5a992ab4f51aaf5efb
+  - id: pair_a485b24bacd945af8e6db79d38fb2444
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_067535b4602b4e70b747fabf97724504
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939358
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

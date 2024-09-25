@@ -1,0 +1,63 @@
+_id: req_c8a06bb85e9546d4917c1dbafceb4f25
+type: Request
+parentId: fld_f788644e310a4ff78cf3dbcd49484859
+modified: 1669090774281
+created: 1669016868783
+url: "{{ _.api_uri }}/{{ _.tenant }}/v2/organization/62cbdb55672f57fb9246ea32"
+name: /v2/organization/{orgId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    			"_id": "6163c4e40470c713010c71db",
+    			"updatedBy": "sysUser",
+    			"createdBy": "sysUser",
+    			"name": "QA ORG, DONT DELETE 2",
+    			"description": "Dont'Delete this tenant 1",
+    			"ticker": "Dont",
+    			"meta": [],
+    			"branding": {
+    				"title": "string",
+    				"tagline": "string",
+    				"logo": {
+    					"id": "string",
+    					"name": "string",
+    					"kind": "Image",
+    					"src": "string",
+    					"_id": "62cd38d9d7adffed747ff315",
+    					"type": "Image"
+    				},
+    				"_id": "62cd38d9d7adffed747ff314"
+    			},
+    			"createdAt": "2021-10-11T05:00:20.862Z",
+    			"updatedAt": "2022-07-26T03:19:09.489Z",
+    			"_version": 1,
+    			"schemaVersion": 1,
+    			"id": "6163c4e40470c713010c71db"
+    		}
+parameters: []
+headers:
+  - id: pair_e9518c716dd549b685080e8cfe637637
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - id: pair_5434f1e0e95b45c4980d8e821b857476
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+preRequestScript: null
+metaSortKey: -1669016868783
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

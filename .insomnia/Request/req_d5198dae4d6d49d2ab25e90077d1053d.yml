@@ -1,0 +1,32 @@
+_id: req_d5198dae4d6d49d2ab25e90077d1053d
+type: Request
+parentId: fld_65db54e1058a4df58c72df0f3b3d1e62
+modified: 1669012688996
+created: 1668770386654
+url: "{{ _.api_uri }}/{{ _.tenant }}/mgmt/pair/dfd"
+name: /mgmt/pair/{pairId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_6414434362404e1693b50f01e757ed81
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - id: pair_14d1b12e261e4504a0fe0cc66b578da3
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1668770386654
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

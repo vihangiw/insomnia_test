@@ -1,0 +1,32 @@
+_id: req_5a8e73a75b1e4e138466b83eac4fe161
+type: Request
+parentId: fld_a1574724c6c6461faa5f3ef26765120a
+modified: 1669017772340
+created: 1669017660207
+url: "{{ _.api_uri }}/{{ _.tenant }}/policy/wewieiwei/thing"
+name: /policy/{policyId}/thing
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers:
+  - id: pair_29d61b2e40c0432882d38d08ea32e27e
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_ceb376fa221e4fbe83c8dd0096fcc047
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1669017660207
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_c977ff2c33cb490197c95045ae9727c6
+type: Request
+parentId: fld_57b9f31730a749e8ae4817e5a52fcc5d
+modified: 1670231982315
+created: 1613477277865
+url: "{{ _.api_uri }}/{{ _.tenant }}/device/6347e63db4a234d9013feab3"
+name: /device/{deviceId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_8a9de9673b0b4a9cbc9fff8f847f6ba9
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_3fca3d8103894be6a29be3eedb3c0d49
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939433
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

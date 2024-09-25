@@ -1,0 +1,51 @@
+_id: req_e07ef6067b55406e9dde794ebe7207ef
+type: Request
+parentId: fld_211cd963de4b4d59ba92b6563e0a2945
+modified: 1670238198628
+created: 1669004884480
+url: "{{ _.api_uri }}/{{ _.tenant }}/v2/site/638dcf28d4c8f5e056758d6c"
+name: /v2/site/{siteId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "BENN TENNt2 SITEE",
+      "description": "This is a Test Site",
+    	"irongateIntegration":true,
+    	"signinAppIntegration" : true,
+    	"_version": 1,
+      "meta": [
+        {
+          "key": "string",
+          "value": "string",
+          "status": true
+        }
+      ],
+      "status": true
+    }
+parameters: []
+headers:
+  - id: pair_86332ee65c9a4500a791be855a84d0ef
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - id: pair_5b15e5529ab84d7d94bd2035b4f832a8
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+preRequestScript: null
+metaSortKey: -1669004884480
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

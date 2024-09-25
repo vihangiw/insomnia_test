@@ -1,0 +1,33 @@
+_id: req_c42d59cc4661463194f93879ad5a1e31
+type: Request
+parentId: fld_284c66869e974a9fa0ee484bc4baac5b
+modified: 1670237581271
+created: 1632721080429
+url: http://localhost:3000/DtVd/pair/638dccc4d80fb3237bbe3171/group/638997acab9e1d88105b1f01
+name: /pair/{pairId}/group/{groupId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_0fc83547cd7941cb9ea1a46765bf84cb
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_ed3e098c17d046319ecec107ff3378e0
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612239051612.2012
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,57 @@
+_id: req_7b5413cf05e145eda3029c9620517429
+type: Request
+parentId: fld_57b9f31730a749e8ae4817e5a52fcc5d
+modified: 1670232522885
+created: 1668769463561
+url: "{{ _.api_uri }}/{{ _.tenant }}/v2/device/638db9bbe4b16ee52c804c13"
+name: /v2/device/{deviceId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    			"_id": "638db9bbe4b16ee52c804c13",
+    			"name": "DEX Dev Controller A1 updte s",
+    			"serialNo": "cbe9dc1c-b357-48ee-a4d9-3904c45c07d3",
+    			"legacy": false,
+    			"organization": "6033a0122da79633f9599d99",
+    			"paired": [],
+    			"status": false,
+    			"createdBy": "sysUser",
+    			"updatedBy": "sysUser",
+    			"schemaVersion": 1,
+    			"_version": 1,
+    			"meta": [],
+    			"createdAt": "2022-07-14T23:03:35.826Z",
+    			"updatedAt": "2022-08-31T08:09:53.257Z",
+    			"__v": 0,
+    			"thingName": "ITD-DEV-RPI-1",
+    			"type": "IOT_CONTROLLER",
+    			"kind": "IOT_CONTROLLER",
+    			"id": "62d0a0c7e76987bebd5ce6a6"
+    		}
+parameters: []
+headers:
+  - id: pair_b3336138402c4f268676601acea67be9
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_925a8e6774604807a57f8bbc8fae36f1
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+preRequestScript: null
+metaSortKey: -1668769463561
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

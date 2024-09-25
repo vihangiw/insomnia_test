@@ -1,0 +1,22 @@
+_id: env_4a8cbfa42e12493cad2c454d12f0403f
+type: Environment
+parentId: env_f2f29d6ec840574d9a59e0d38d10ce049447d7c7
+modified: 1693219613949
+created: 1693213798837
+name: dev
+data:
+  base_url: localhost:3000
+  base_path: ""
+  tenant: DtVd
+  orgId: 636109860e0b4fdbb91c32bd
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdhbml6YXRpb24iOiI2MzYxMDk4NjBlMGI0ZmRiYjkxYzMyYmQiLCJ0aWNrZXIiOiJEb250IiwidGVuYW50IjoiRHRWZCIsInVzZXIiOiIxZDk5YWU2MS1kZTBmLTQ1NDYtYTIzNi1iYjE0OWJhMDM0MWYiLCJzY29wZSI6InNjb3BlIiwicHJvZmlsZSI6IjYzN2RmOTNmNmRmODNlNjBkZGUyNzMxYyJ9.56WGt_UsaDtemgbxFVgbxTDQW2JNXULkkrtwvumduxE
+dataPropertyOrder:
+  "&":
+    - base_url
+    - base_path
+    - tenant
+    - orgId
+    - token
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1693213798837

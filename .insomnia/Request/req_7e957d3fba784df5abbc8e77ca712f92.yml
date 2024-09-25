@@ -1,0 +1,49 @@
+_id: req_7e957d3fba784df5abbc8e77ca712f92
+type: Request
+parentId: fld_5eb53bce28214ced90ee06c3f71f7bda
+modified: 1670237910942
+created: 1615530764775
+url: "{{ _.api_uri }}/{{ _.tenant }}/report"
+name: /report
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string2",
+      "description": "string",
+      "device": "604514972874d84ff015ac94",
+      "meta": [
+        {
+          "key": "string",
+          "value": "string",
+          "status": true
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4abfcde23f4247f499ddec623d34f72a
+  - id: pair_67e2f1a72c2a4033854b74998b97bcbe
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_99368b44756f4c3eac4f1e012f97f31b
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939508
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

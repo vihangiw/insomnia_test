@@ -1,0 +1,32 @@
+_id: req_ef6c5c01159048ee8b7cec962b476531
+type: Request
+parentId: fld_57b9f31730a749e8ae4817e5a52fcc5d
+modified: 1670232155587
+created: 1613477277824
+url: "{{ _.api_uri }}/{{ _.tenant }}/device/638db80f35c7f518aa18bbba"
+name: /device/{deviceId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_a4e4cea0d03642e085916c961bd3cb77
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_7bcda9b5e2ab4f289a209b63b1a31f9e
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939408
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,14 @@
+_id: fld_64d70fca5ba54c60acb96cee127faead
+type: RequestGroup
+parentId: wrk_40a33b86d65d4b3b9f51173026c2e494
+modified: 1638340136584
+created: 1638340136584
+name: Thing
+description: ""
+environment: {}
+environmentPropertyOrder: {}
+metaSortKey: -1000000000
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

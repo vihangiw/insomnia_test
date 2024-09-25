@@ -1,0 +1,36 @@
+_id: req_04d2d672f1754674958dfdd4ee12fdf3
+type: Request
+parentId: wrk_40a33b86d65d4b3b9f51173026c2e494
+modified: 1726634618656
+created: 1684419570645
+url: "{{ _.api_uri }}/{{ _.tenant }}/site/665feb8e9e16b60f6a080c74/events"
+name: evac emit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "type" :"EVACUACTION_OFF"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2114f300fb8b4664abc80652800a3ad1
+  - id: pair_073c52727cf24bf9bc7f26851b1c30f6
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1684419570645
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

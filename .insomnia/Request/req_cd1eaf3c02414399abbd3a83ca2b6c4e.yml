@@ -1,0 +1,59 @@
+_id: req_cd1eaf3c02414399abbd3a83ca2b6c4e
+type: Request
+parentId: fld_f788644e310a4ff78cf3dbcd49484859
+modified: 1671511210849
+created: 1612255939246
+url: "{{ _.api_uri }}/{{ _.tenant }}/organization/63a13c459401de12e2f9d710"
+name: /orgainzation/{orgId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "vvv",
+      "description": "string3 d232 asc a232 asd",
+      "ticker": "vvv",
+      "meta": [
+        {
+          "key": "string",
+          "value": "string",
+          "status": true
+        }
+      ],
+      "branding": {
+        "title": "string",
+        "tagline": "string",
+        "logo": {
+          "id": "string",
+          "name": "string",
+          "type": "Image",
+          "src": "string"
+        }
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_20d52fd8ea10467a8c2d0034478ebe70
+  - id: pair_b955f593501f4d73933c15003d34c480
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - id: pair_a31486ede87742cf88cb2eb627dbd71f
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939358
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

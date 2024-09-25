@@ -1,0 +1,32 @@
+_id: req_ee9b1e700e7845409e5f45c220d36eec
+type: Request
+parentId: fld_a1574724c6c6461faa5f3ef26765120a
+modified: 1669016569571
+created: 1669016410218
+url: "{{ _.api_uri }}/{{ _.tenant }}/policy"
+name: /policy
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5226ee2e1cb7426388828f4f92d5f4c6
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_354373d2c2614e08a2a2b5c605a7c5a0
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1669016410218
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

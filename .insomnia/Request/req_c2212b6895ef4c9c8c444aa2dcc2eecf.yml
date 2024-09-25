@@ -1,0 +1,44 @@
+_id: req_c2212b6895ef4c9c8c444aa2dcc2eecf
+type: Request
+parentId: fld_64d70fca5ba54c60acb96cee127faead
+modified: 1670484062932
+created: 1638340136603
+url: "{{ _.api_uri }}/{{ _.tenant }}/thing"
+name: /thing
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "batchCode": "test1234",
+      "serialNo": "test12345",
+      "merge": true,
+      "billingName": "string",
+      "thingTypeName": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4abfcde23f4247f499ddec623d34f72a
+  - id: pair_9d3fe391a33f417ea0b9f46e62a7c172
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_179c94623f2e4f12a3ce909a3249ac10
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939508
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

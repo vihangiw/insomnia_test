@@ -1,0 +1,33 @@
+_id: req_c52df412e2d647e09d1a947fca173732
+type: Request
+parentId: fld_284c66869e974a9fa0ee484bc4baac5b
+modified: 1670236978353
+created: 1670236971222
+url: "{{ _.api_uri }}/{{ _.tenant }}/pair/active"
+name: /pair/active
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_e0108535640a4b0b8440027914a5994b
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_431bf696686f4fab8688572d82aef7c6
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939429.875
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

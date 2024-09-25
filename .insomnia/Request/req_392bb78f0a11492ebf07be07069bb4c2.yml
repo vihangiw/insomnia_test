@@ -1,0 +1,52 @@
+_id: req_392bb78f0a11492ebf07be07069bb4c2
+type: Request
+parentId: fld_211cd963de4b4d59ba92b6563e0a2945
+modified: 1703761099968
+created: 1613381081263
+url: "{{ _.api_uri }}/{{ _.tenant }}/site"
+name: /site
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "OS checks",
+      "description": "This is a Test OS",
+    	"irongateIntegration":true,
+    	"location":"658bf9b8d13f3b6a7d7d508e",
+      "meta": [
+        {
+          "key": "string",
+          "value": "string",
+          "status": true
+        }
+      ],
+      "status": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4abfcde23f4247f499ddec623d34f72a
+  - id: pair_873724de1bef4bdda753a1a24e14a432
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_1bb2b93a1a814b76bde64ca3c4f32fdf
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939508
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

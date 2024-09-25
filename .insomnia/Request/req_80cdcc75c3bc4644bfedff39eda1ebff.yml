@@ -1,0 +1,62 @@
+_id: req_80cdcc75c3bc4644bfedff39eda1ebff
+type: Request
+parentId: fld_a1574724c6c6461faa5f3ef26765120a
+modified: 1670237643191
+created: 1669016540937
+url: "{{ _.api_uri }}/{{ _.tenant }}/policy"
+name: /policy
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "description": "string",
+      "ticker": "string",
+    	"policyName": "string",
+    	"policyDocument": "string",
+    	"type": "string",
+      "meta": [
+        {
+          "key": "string",
+          "value": "string",
+          "status": true
+        }
+      ],
+      "branding": {
+        "title": "string",
+        "tagline": "string",
+        "logo": {
+          "id": "string",
+          "name": "string",
+          "type": "test",
+          "src": "string"
+        }
+      }
+    }
+parameters: []
+headers:
+  - id: pair_ae92f261a84b4928ba4bd8a3ea62307c
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_5ada643869454510adb22ae70c6ff68d
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_23a4db2cd0ae4255b39c5aefef7b8c1c
+authentication: {}
+preRequestScript: null
+metaSortKey: -1669016540937
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

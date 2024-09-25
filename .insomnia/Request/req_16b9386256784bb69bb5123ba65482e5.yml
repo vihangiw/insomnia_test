@@ -1,0 +1,55 @@
+_id: req_16b9386256784bb69bb5123ba65482e5
+type: Request
+parentId: fld_f788644e310a4ff78cf3dbcd49484859
+modified: 1692606595242
+created: 1612255939258
+url: "{{ _.api_uri }}/{{ _.tenant }}/organization/public"
+name: /organization
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "1"
+    description: ""
+    id: pair_635e7ed308004aaabdfe0cf8785a2dd7
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_6daa5e67ac8a4ddd8ab72071f14c6362
+  - name: s
+    value: string
+    description: ""
+    id: pair_e6ddbb5565e2459aa3db44e067116981
+    disabled: true
+  - name: name
+    value: test
+    description: ""
+    id: pair_5931f33da7d1443882e0aad618588826
+    disabled: true
+  - name: sort
+    value: name+
+    description: ""
+    id: pair_1af413f4fb2e4d91b545233f29b7991c
+    disabled: true
+headers:
+  - id: pair_392e921487f045c9a95c82b503acfffe
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - id: pair_1108350debe44a6482db5c3b84039386
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939458
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_4cd4b7f69b904303975258d0a6237f52
+type: Request
+parentId: fld_284c66869e974a9fa0ee484bc4baac5b
+modified: 1705052909501
+created: 1670237132396
+url: "{{ _.api_uri }}/{{ _.tenant }}/pair/65a0fdbee4642438a01e3382"
+name: /pair/{pairId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"entryLabel": "test",
+    	"exitLabel": "test2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - id: pair_e0108535640a4b0b8440027914a5994b
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_431bf696686f4fab8688572d82aef7c6
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939431.4375
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_a4eb83a77d5e4b7eac5fb0289b183ec7
+type: Request
+parentId: fld_9b0332bd7f874df1a3e718e44012a124
+modified: 1709269697579
+created: 1613647812780
+url: "{{ _.api_uri }}/{{ _.tenant }}/65e0640f13ab13414c4e0e96/gate"
+name: /{siteId}/gate
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "10"
+    description: ""
+    id: pair_87742242da564497b183729381f9add2
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_746bf7e9197b4fc59f675b24b9a9d8a9
+headers:
+  - id: pair_3280d6114b46472c9b701194d5082adc
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+  - id: pair_57d176535a1e4771bfc716fd1cbe7d0c
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939458
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

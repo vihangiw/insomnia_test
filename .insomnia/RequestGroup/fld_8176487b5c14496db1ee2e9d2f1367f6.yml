@@ -1,0 +1,14 @@
+_id: fld_8176487b5c14496db1ee2e9d2f1367f6
+type: RequestGroup
+parentId: wrk_40a33b86d65d4b3b9f51173026c2e494
+modified: 1634880933760
+created: 1634880933760
+name: Media
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1634880933760
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

@@ -1,0 +1,59 @@
+_id: req_26055849f5c443e9bdfd57ede0accf1f
+type: Request
+parentId: fld_f788644e310a4ff78cf3dbcd49484859
+modified: 1698737601598
+created: 1614766583034
+url: "{{ _.api_uri }}/{{ _.tenant }}/organization"
+name: /orgainzation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "OS 445",
+      "description": "Irongate default test tenant",
+      "ticker": "115",
+      "meta": [
+        {
+          "key": "string",
+          "value": "string",
+          "status": true
+        }
+      ],
+      "branding": {
+        "title": "string",
+        "tagline": "string",
+        "logo": {
+          "id": "string",
+          "name": "string",
+          "type": "Image",
+          "src": "string"
+        }
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_20d52fd8ea10467a8c2d0034478ebe70
+  - id: pair_41b8bdb75e3749e0831102e12f69dcec
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+  - id: pair_c565c16190f14bce95a3bc9c045b0965
+    name: organization
+    value: "{{ _.orgId }}"
+    description: ""
+authentication: {}
+preRequestScript: null
+metaSortKey: -1612255939508
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

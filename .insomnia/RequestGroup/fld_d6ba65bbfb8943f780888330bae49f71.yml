@@ -1,0 +1,14 @@
+_id: fld_d6ba65bbfb8943f780888330bae49f71
+type: RequestGroup
+parentId: wrk_40a33b86d65d4b3b9f51173026c2e494
+modified: 1703669885883
+created: 1703669885883
+name: Tags
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1703669885883
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null
